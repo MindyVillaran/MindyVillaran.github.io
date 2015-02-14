@@ -50,6 +50,15 @@ table {
 	border-spacing: 0;
 }
 
+#column1{
+	float: left
+	margin: 20px;
+}
+
+#column2{
+	float:middle
+	margin: 0px;
+}
 
 /* END RESET */
 
