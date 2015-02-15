@@ -50,14 +50,20 @@ table {
 	border-spacing: 0;
 }
 
-#column1{
-	float: left
-	margin: 20px;
+#header {
+    color:black;
+    padding:10px;
 }
-
-#column2{
-	float:middle
-	margin: 0px;
+#column1 {
+    height:300px;
+    width:100px;
+    float:left;
+    padding:10px;	      
+}
+#column2 {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
 }
 
 /* END RESET */
