@@ -50,19 +50,23 @@ table {
 	border-spacing: 0;
 }
 
+
+h1 { font-size:44px; font-weight:bold; color:black;}
+h3 { font-size:20px; font-weight:bold; color:black;}
+
 #header {
-    padding:10px;
+    padding:20px;
 }
 #column1 {
     height:300px;
-    width:100px;
+    width:150px;
     float:left;
-    padding:10px;	      
+    padding:20px;	      
 }
 #column2 {
     width:350px;
     float:left;
-    padding:10px;	 	 
+    padding:20px;	 	 
 }
 
 /* END RESET */
