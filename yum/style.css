@@ -32,7 +32,11 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1
+	font-family:Garamond;
+	font-size:15px;
+	padding:20px;
+	;
 }
 ol, ul {
 	list-style: none;
@@ -51,9 +55,15 @@ table {
 }
 
 
-
-h1 { font-size:44px; font-weight:bold; color:black;}
-h3 { font-size:20px; font-weight:bold; color:black;}
+h1 { font-size:44px; 
+	font-weight:bold;
+	font-family: Helvetica; 
+	color:black;}
+	
+h3 { font-size:20px; 
+	font-weight:bold;
+	font-family: Helvetica; 
+	color:black;}
 
 
 /* END RESET */
