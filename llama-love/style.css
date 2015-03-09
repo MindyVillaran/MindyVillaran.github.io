@@ -52,4 +52,44 @@ table {
 
 /* -----------------END RESET---------------- */
 
+h1{
+	font-family: Arial;
+	font-size: 35px;
+	color: #19A3A3;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing:.5px;
+}
 
+h2{
+	font-family: Arial;
+	font-size: 20px;
+	color: #5C5C5C;
+	text-transform: uppercase;
+	letter-spacing:.3px;
+	line-height:2em;
+}
+
+p{
+	font-family: Times;
+	font-size: 15px;
+	color: #969696;
+	line-height:1em;
+}
+
+
+.column {
+	float:left;
+	padding:20px;
+	width:40%;
+	margin-top:30px;
+	margin-left:35px;
+}
+
+
+.left-img{
+	float:left;
+	width:35%;
+	margin-right:20px;
+	margin-bottom:15px;
+}
