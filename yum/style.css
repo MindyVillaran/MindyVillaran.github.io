@@ -31,13 +31,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1
-	font-family:Garamond;
-	font-size:15px;
-	padding:20px;
-	;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -55,17 +49,72 @@ table {
 }
 
 
-h1 { font-size:44px; 
-	font-weight:bold;
-	font-family: Helvetica; 
-	color:black;}
-	
-h3 { font-size:20px; 
-	font-weight:bold;
-	font-family: Helvetica; 
-	color:black;}
-
-
 /* END RESET */
 
+body{
+	padding:20px;
+}
 
+h1 { 
+	font-size:44px; 
+	font-weight:bold;
+	font-family: Helvetica; 
+	color:black;
+}
+	
+h3 { 
+	font-size:22px; 
+	font-family: Helvetica; 
+	color:black;
+	padding-top:9px;
+	padding-bottom:15px;
+}	
+	
+li {
+	line-height: 1
+	font-family:Garamond;
+	font-size:15px;
+	}
+	
+p{
+	font-size:17px; 
+	font-family: Helvetica; 
+	color:black;	
+}	
+
+	
+#column1 {
+	height:300px;
+	width:150px;
+	float:left;
+	}
+	
+#column2 {
+	width:325px;
+	float:left;
+	padding-left:30px;	 	 
+	}
+	
+.container {
+	overflow: auto;
+	width: 100%
+	}
+	
+footer{
+	padding-top:50px;
+	font-family:Garamond;
+	font-size:15px;
+}	
+
+a {
+	text-decoration:none; 
+	color:#248F8F}
+	
+a:hover{
+	color:gray;}
+
+	
+	
+
+
+	
