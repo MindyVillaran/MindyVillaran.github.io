@@ -52,24 +52,54 @@ table {
 /* -----------------END RESET---------------- */
 
 
-#nav{
-	 line-height:25px;
-}
-
-
-#content{
-	padding:30px
-}
-
-#column1{
-	width:375px;
-	float:left;
-	padding:20px;
+body{
+	padding:25px;
+	}
 	
+li{
+	 font-weight:bold;
+	 font-size:25px;
+	 font-family:Georgia;
+	 text-transform:uppercase;
+	 padding:5px; 
+	}
+
+h1{
+	font-weight:bold;
+	font-size:25px;
+	font-family:Georgia;
+	padding-bottom:13px;	
+	}
+
+p{
+	font-size:16px;
+	font-family:Georgia;	
+	line-height:1.2;	
+	}
+
+footer{
+	padding-top:30px;
+	font-size:14px;
+	font-family:Georgia;
+	}
+
+a{
+	color:#B20000;
+	text-decoration:none;
+	}
+a:hover{
+	color:gray;
+	text-decoration:none;	
+	}
+
+#logo{
+	padding-bottom:30px;
+	padding-top:20px;
+}
+ 
+.image{
+	padding-bottom:15px;
+	padding-top:20px;
 }
 
-#column2{
-	width:375px;
-	float:left;
-	padding:20px;
-}
+
