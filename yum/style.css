@@ -60,17 +60,41 @@ h1 {
 	font-weight:bold;
 	font-family: Helvetica; 
 	color:black;
+	padding-bottom:5px;
 }
+	
+	
+#head-lable{	
+	padding-top: 10px;
+	padding-bottom: 7px;
+	
+	border-style:solid;
+	border:6px solid;
+	
+	border-top-color: black;
+	border-top-width: 6px;
+	border-right-color: white;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-left-color: white;
+	
+	margin-top:10px;
+	margin-bottom:30px;
+	
+	width:40%;
+}
+	
 	
 h3 { 
 	font-size:22px; 
 	font-family: Helvetica; 
 	color:black;
-	padding-top:9px;
-	padding-bottom:15px;
+	padding-bottom: 7px;
+	
 }	
 	
 li {
+	padding-top:10px;
 	line-height: 1
 	font-family:Garamond;
 	font-size:15px;
@@ -84,13 +108,12 @@ p{
 
 	
 #column1 {
-	height:300px;
-	width:150px;
+	width:11%;
 	float:left;
 	}
 	
 #column2 {
-	width:325px;
+	width:25%;
 	float:left;
 	padding-left:30px;	 	 
 	}
