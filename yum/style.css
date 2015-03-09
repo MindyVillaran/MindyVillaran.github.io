@@ -59,7 +59,7 @@ body{
 h1 { 
 	font-size:44px; 
 	font-weight:bold;
-	font-family: Helvetica; 
+	font-family: Arial; 
 	color:black;
 	padding-bottom:5px;
 	}
@@ -90,7 +90,7 @@ h3 {
 li {
 	padding-top:10px;
 	line-height: 1
-	font-family:Times;
+	font-family:Georgia;
 	font-size:15px;
 	}
 	
@@ -118,8 +118,8 @@ p{
 	
 footer{
 	padding-top:50px;
-	font-family:Times;
-	font-size:15px;
+	font-family:Georgia;
+	font-size:12px;
 	}	
 
 a {
