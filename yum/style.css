@@ -54,7 +54,7 @@ table {
 body{
 	padding-top:45px;
 	padding-left:30px;	
-}
+	}
 
 h1 { 
 	font-size:44px; 
@@ -62,8 +62,7 @@ h1 {
 	font-family: Helvetica; 
 	color:black;
 	padding-bottom:5px;
-}
-	
+	}
 	
 #head-lable{	
 	padding-top: 10px;
@@ -83,16 +82,14 @@ h1 {
 	margin-bottom:30px;
 	
 	width:40%;
-}
-	
+	}
 	
 h3 { 
 	font-size:22px; 
 	font-family: Arial; 
 	color:black;
 	padding-bottom: 7px;
-	
-}	
+	}	
 	
 li {
 	padding-top:10px;
@@ -105,8 +102,7 @@ p{
 	font-size:17px; 
 	font-family: Arial; 
 	color:black;	
-}	
-
+	}	
 	
 #column1 {
 	width:11%;
@@ -128,14 +124,16 @@ footer{
 	padding-top:50px;
 	font-family:Times;
 	font-size:15px;
-}	
+	}	
 
 a {
 	text-decoration:none; 
-	color:#248F8F}
+	color:#248F8F
+	}
 	
 a:hover{
-	color:gray;}
+	color:gray;
+	}
 
 	
 	
