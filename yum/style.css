@@ -88,7 +88,7 @@ h1 {
 	
 h3 { 
 	font-size:22px; 
-	font-family: Helvetica; 
+	font-family: Arial; 
 	color:black;
 	padding-bottom: 7px;
 	
@@ -97,13 +97,13 @@ h3 {
 li {
 	padding-top:10px;
 	line-height: 1
-	font-family:Garamond;
+	font-family:Times;
 	font-size:15px;
 	}
 	
 p{
 	font-size:17px; 
-	font-family: Helvetica; 
+	font-family: Arial; 
 	color:black;	
 }	
 
@@ -126,7 +126,7 @@ p{
 	
 footer{
 	padding-top:50px;
-	font-family:Garamond;
+	font-family:Times;
 	font-size:15px;
 }	
 
