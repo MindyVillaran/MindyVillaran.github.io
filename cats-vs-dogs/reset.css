@@ -53,7 +53,7 @@ table {
 
 
 body{
-	padding:25px;
+	padding:25px;	
 	}
 	
 li{
@@ -61,9 +61,27 @@ li{
 	 font-size:25px;
 	 font-family:Georgia;
 	 text-transform:uppercase;
-	 padding:5px; 
-	}
+	 padding-left:30px; 
+	 padding-right:30px; 
+	 float:left	 	
+}
 
+#nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top-style:solid;
+    border-bottom-style:solid;
+	border-width: 4px;
+	border-color: black;
+}
+
+	
+ul{
+	overflow: auto;
+	width: 100%
+}
+	
+	
 h1{
 	font-weight:bold;
 	font-size:25px;
@@ -87,6 +105,7 @@ a{
 	color:#B20000;
 	text-decoration:none;
 	}
+	
 a:hover{
 	color:gray;
 	text-decoration:none;	
@@ -102,4 +121,22 @@ a:hover{
 	padding-top:20px;
 }
 
+.column{
+	float:left;
+	margin:20px;
+	width:30%;
+}
+
+#container {
+	overflow: auto;
+	width: 100%;
+	padding-bottom: 20px;
+    border-bottom-style:solid;
+	border-width: 4px;
+	border-color: black;
+	
+	}
+	
+
+	
 
