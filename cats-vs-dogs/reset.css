@@ -68,10 +68,12 @@ body {
     border-bottom:solid 3px black;
 }
 
+
 ul{
 	overflow: auto;
-	list-style-type: disc;
-	list-style-position: outside;
+	list-style-type: disc;	
+	margin-left: auto;
+	margin-right: auto
 }
 	
 li{
@@ -81,7 +83,6 @@ li{
 	 padding-right:60px; 
 	 float:left;	 
 }	 
-	 
 	
 h1{
 	font:bold 25px Georgia;
@@ -95,6 +96,9 @@ p{
 
 #logo{
 	padding:30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
  
 .image{
