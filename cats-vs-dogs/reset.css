@@ -50,7 +50,9 @@ table {
 	border-spacing: 0;
 }
 
+
 /* -----------------END RESET---------------- */
+
 
 
 body {
@@ -68,15 +70,12 @@ body {
 
 ul{
 	overflow: auto;
-	width: 100%;
 	list-style-type: disc;
 	list-style-position: outside;
 }
 	
 li{
-	 font-weight:bold;
-	 font-size:25px;
-	 font-family:Georgia;
+	 font:bold 25px Georgia;
 	 text-transform:uppercase;
 	 padding-left:20px; 
 	 padding-right:60px; 
@@ -85,21 +84,17 @@ li{
 	 
 	
 h1{
-	font-weight:bold;
-	font-size:25px;
-	font-family:Georgia;
+	font:bold 25px Georgia;
 	padding-bottom:13px;	
 	}
 
 p{
-	font-size:15px;
-	font-family:Georgia;	
+	font:15px Georgia;
 	line-height:1.4;	
 	}
 
 #logo{
-	padding-bottom:30px;
-	padding-top:20px;
+	padding:30px;
 }
  
 .image{
@@ -109,22 +104,19 @@ p{
 
 .column{
 	float:left;
-	margin-left:35px;
-	width:44%;
+	margin-left:30px;
+	width:45%;
 }
 
 #container {
 	overflow: auto;
-	width: 100%;
 	padding-bottom: 20px;
     border-bottom:solid 3px black;
 }
 	
-
 footer{
 	padding-top:15px;
-	font-size:12px;
-	font-family:Georgia;
+	font-size:12px Georgia;
 }
 	
 #sources{
