@@ -62,8 +62,8 @@ body {
 }
 
 #nav{
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	border-top:solid 3px black;
     border-bottom:solid 3px black;
 }
@@ -72,17 +72,17 @@ body {
 ul{
 	overflow: auto;
 	list-style-type: disc;	
-	margin-left: auto;
-	margin-right: auto
+
 }
 	
 li{
 	 font:bold 25px Georgia;
 	 text-transform:uppercase;
-	 padding-left:20px; 
-	 padding-right:60px; 
+	 padding-left:10px; 
+	 padding-right:45px; 
 	 float:left;	 
-}	 
+}	
+
 	
 h1{
 	font:bold 25px Georgia;
@@ -95,7 +95,8 @@ p{
 	}
 
 #logo{
-	padding:30px;
+	padding-top:20px;
+	padding-bottom:35px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto
