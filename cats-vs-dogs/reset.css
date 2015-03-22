@@ -61,20 +61,6 @@ body {
   padding:25px;	
 }
 
-#nav{
-	padding-top: 6px;
-	padding-bottom: 6px;
-	border-top:solid 3px black;
-    border-bottom:solid 3px black;
-}
-
-
-ul{
-	overflow: auto;
-	list-style-type: disc;	
-
-}
-	
 li{
 	 font:bold 25px Georgia;
 	 text-transform:uppercase;
@@ -82,6 +68,21 @@ li{
 	 padding-right:45px; 
 	 float:left;	
 }	
+
+#nav{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-top:solid 3px black;
+    border-bottom:solid 3px black;
+}
+
+  
+ul{
+	overflow: auto;
+	list-style-type: disc;	
+	margin-right:0px;
+	margin-right:60px;
+}
 
 	
 h1{
