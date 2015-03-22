@@ -63,9 +63,8 @@ body{
 	position: relative;
 }
 
-#site-header h1{
-	font: Arial bold;
-	padding-top:65px;	
+#logo{
+	padding-top:45px;	
 }
 
 #top-nav{
