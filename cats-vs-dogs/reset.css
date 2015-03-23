@@ -64,21 +64,19 @@ body {
 li{
 	 font:bold 25px Georgia;
 	 text-transform:uppercase;
-	 padding-left:10px; 
-	 padding-right:45px; 
-	 float:left;	
-}	
+	 padding: 6px 30px 6px 30px; 
+	 display: inline-block; 
+ 
+ }	
 
 #nav{
-	padding-top: 6px;
-	padding-bottom: 6px;
 	border-top:solid 3px black;
     border-bottom:solid 3px black;
+	text-align: center;
 }
 
   
 ul{
-	overflow: auto;
 	list-style-type: disc;	
 	margin-right:0px;
 	margin-right:60px;
@@ -116,14 +114,17 @@ p{
 }
 
 #container {
-	overflow: auto;
 	padding-bottom: 20px;
     border-bottom:solid 3px black;
+	clear: both;
+	height:530px;
+	
 }
 	
 footer{
 	padding-top:15px;
 	font-size:12px Georgia;
+	clear: both;
 }
 	
 #sources{
