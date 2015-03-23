@@ -57,7 +57,7 @@ table {
 
 body {
   margin:0 auto;
-  width:960px;
+  width:80%;
   padding:25px;	
 }
 
@@ -97,8 +97,7 @@ p{
 	padding-top:20px;
 	padding-bottom:35px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto
+	margin: 0 auto;
 }
  
 .image{
