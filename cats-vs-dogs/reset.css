@@ -58,30 +58,40 @@ table {
 body {
   margin:0 auto;
   width:80%;
-  padding:25px;	
+}
+
+
+
+
+
+
+header {
+	text-align: center;
 }
 
 li{
 	 font:bold 25px Georgia;
 	 text-transform:uppercase;
-	 padding: 6px 30px 6px 30px; 
+	 padding: 6px 12px 6px 12px; 
 	 display: inline-block; 
- 
  }	
 
-#nav{
+nav{
 	border-top:solid 3px black;
     border-bottom:solid 3px black;
-	text-align: center;
 }
 
+header img{
+	padding-top:20px;
+	padding-bottom:35px;
+	display: inline-block;
+}
   
-ul{
-	list-style-type: disc;	
-	margin-right:0px;
-	margin-right:60px;
-}
 
+	
+	
+	
+	
 	
 h1{
 	font:bold 25px Georgia;
@@ -93,13 +103,6 @@ p{
 	line-height:1.4;	
 	}
 
-#logo{
-	padding-top:20px;
-	padding-bottom:35px;
-	display: block;
-	margin: 0 auto;
-}
- 
 .image{
 	padding-bottom:15px;
 	padding-top:20px;
@@ -108,22 +111,24 @@ p{
 
 .column{
 	float:left;
-	margin-left:30px;
+	margin-left:3%;
 	width:45%;
 }
 
 #container {
+	clear: both;
 	padding-bottom: 20px;
     border-bottom:solid 3px black;
-	clear: both;
-	height:530px;
-	
+	overflow: auto;
 }
+	
+	
+	
+	
 	
 footer{
 	padding-top:15px;
 	font-size:12px Georgia;
-	clear: both;
 }
 	
 #sources{
