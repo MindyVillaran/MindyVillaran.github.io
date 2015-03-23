@@ -57,10 +57,13 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	width: 960px;
+    font-family: Arial;
 }
 
 #site-header{
 	position: relative;
+	background-color:#eff5da;
+	
 }
 
 #logo{
@@ -73,30 +76,50 @@ body{
 	top: 3px;	
 }
 
+#top-nav a{
+	color:#744918;
+	text-decoration: none;
+}
+
 #main-menu{
 	overflow: auto; 
-	height:50px;
-	padding-top: 20px;
+	padding: 10px 0px 10px 0px;
+	background-color:#744918;
 }
 
 #main-menu li{
 	float:left;
 	padding-right: 30px;
+
 }
+
+#main-menu a{
+	color:white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+p{
+	font-size: 14px;
+}
+
 
 h1{
 	font:30px Arial;
 	text-transform: uppercase;
+	color: #744918;
 }
 
 h2{
 	font: 20px Arial;
 	text-transform: uppercase;
 	margin-top:8px;
+	color: #744918;
 }
 
 p{
 	margin-top:10px;
+	line-height:1.5;
 }
 
 #page{
@@ -118,11 +141,30 @@ p{
 	line-height:1.5;
 }
 
-#content{
-	overflow: auto; 
-	height:600px;
+#sidebar a{
+	color:#744918;
+	text-decoration: none;
 }
 
+#content-wrapper{
+	overflow: auto;
+	height: 650px;
+}
+
+
+#footer-wrapper h2{
+	color: white;
+}
+
+#footer-wrapper p{
+	color: white;
+}
+
+#footer-wrapper{
+	clear:both;
+	background-color:#744918;
+	height: 200px;
+}
 
 #footer-contact{
     float:left;
@@ -138,6 +180,11 @@ p{
 	float:left;
 	padding-right:10px;
 }
+
+
+
+
+
 
 
 
