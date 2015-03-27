@@ -56,20 +56,27 @@ table {
 body{
 	margin-left:auto;
 	margin-right:auto;
-	width: 960px;
     font-family: Arial;
 }
 
-
-
-
 #site-header{
+    margin:0 auto;
+	width:60%
+}
+
+#site-wrapper{
 	position: relative;
 	background-color:#eff5da;
 }
 
 #logo{
 	padding-top:45px;	
+}
+
+
+
+#menu-wrapper{
+	background-color:#744918;
 }
 
 #top-nav{
@@ -86,7 +93,8 @@ body{
 #main-menu{
 	overflow: auto; 
 	padding: 10px 0px 10px 0px;
-	background-color:#744918;
+    margin:0 auto;
+	width:60%
 }
 
 #main-menu li{
@@ -122,6 +130,11 @@ h2{
 
 
 
+#content{
+    margin:0 auto;
+	width:60%
+}
+
 p{
 	margin-top:10px;
 	line-height:1.5;
@@ -129,15 +142,14 @@ p{
 
 #page{
 	float:left;
-	width:55%;
+	width:45%;
 	margin-top:30px;
 }
-
 
 #sidebar {
 	float:left;
 	padding:10px;
-	width:30%;
+	width:25%;
 	margin-top:30px;
 	margin-left:120px;
 }
@@ -153,7 +165,7 @@ p{
 
 #content-wrapper{
 	overflow: auto;
-	height: 650px;
+	height: 680px;
 }
 
 
@@ -161,7 +173,22 @@ p{
 
 
 
+#site-footer{
+    margin:0 auto;
+	width:60%
+}
 
+#footer-wrapper{
+	clear:both;
+	background-color:#744918;
+   	height:200px;
+	margin-top: 30px;
+}
+
+#footer-contact{
+    float:left;
+	width: 25%;
+}
 
 #footer-wrapper h2{
 	color: white;
@@ -169,17 +196,6 @@ p{
 
 #footer-wrapper p{
 	color: white;
-}
-
-#footer-wrapper{
-	clear:both;
-	background-color:#744918;
-	height: 200px;
-}
-
-#footer-contact{
-    float:left;
-	width: 15%;
 }
 
 #footer-follow{
