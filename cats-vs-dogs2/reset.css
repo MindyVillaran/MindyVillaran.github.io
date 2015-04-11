@@ -53,7 +53,8 @@ table {
 
 /* -----------------END RESET---------------- */
 
-
+ 
+ 
 
 body {
   margin:0 auto;
@@ -63,27 +64,38 @@ body {
 
 
 
-
-
 header {
 	text-align: center;
 }
 
-li{
-	 font:bold 25px Georgia;
+#main-nav{
+ 	border-top:solid 3px black;
+    border-bottom:solid 3px black;
+ }
+ 
+#main-nav li{
+	 font:bold 1.56em Georgia;
 	 text-transform:uppercase;
-	 padding: 6px 12px 6px 12px; 
+	 padding: .15em .4em .15em .4em;
 	 display: inline-block; 
  }	
+ 
 
-nav{
-	border-top:solid 3px black;
-    border-bottom:solid 3px black;
-}
+#mobile-nav {
+	 display:none;
+	 border-top:solid 3px black;
+	 border-bottom:solid 3px black
+ }
+
+ #mobile-nav li{
+ 	 font:bold 1.56em Georgia;
+	 line-height:1.5;
+ 	 text-transform:uppercase;
+  }	
 
 header img{
-	padding-top:20px;
-	padding-bottom:35px;
+	padding-top: 1.25em;
+	padding-bottom:2.19em;
 	display: inline-block;
 }
   
@@ -94,19 +106,19 @@ header img{
 	
 	
 h1{
-	font:bold 25px Georgia;
-	padding-bottom:13px;	
+	font:bold 1.56em Georgia;
+	padding-bottom:.8em;	
 	}
 
 p{
-	font:15px Georgia;
+	font:1em Georgia;
 	line-height:1.4;	
 	}
 
 .image{
-	padding-bottom:15px;
-	padding-top:20px;
-	width: 100%;
+	padding-bottom:1em;
+	padding-top:1.25em;
+	max-width: 100%;
 }
 
 .column{
@@ -117,8 +129,8 @@ p{
 
 #container {
 	clear: both;
-	padding-bottom: 20px;
-    border-bottom:solid 3px black;
+	padding-bottom: 1.25em;
+    border-bottom:solid .1875em black;
 	overflow: auto;
 }
 	
@@ -127,18 +139,18 @@ p{
 	
 	
 footer{
-	padding-top:15px;
-	font-size:12px Georgia;
+	padding-top:1em;
+	font-size:.75em Georgia;
 }
 	
 #sources{
 	float:left;
-	padding-left: 35px;
+	padding-left: 2.189em;
 }	
 
 #copyright{
 	float:right;
-	padding-right: 35px;
+	padding-right: 2.189em;
 }
 
 a{
@@ -151,5 +163,43 @@ a:hover{
 	text-decoration:none;	
 }	
 
-	
 
+
+
+
+@media screen and (max-width:850px) { 
+
+	.column{float:none; width:98%; margin:0 1%;}
+	
+	#sources{
+		float:none;
+		padding:0em}	
+
+	#copyright{float:none;
+	padding:0em}	
+}
+
+
+
+
+@media screen and (max-width:550px) { 
+	#mobile-nav {display:block}
+  	 
+	#main-nav {display:none}
+	
+	.column{float:none; width:98%; margin:0 1%;}
+	
+	#sources{
+		float:none;
+		padding:0em}	
+
+	#copyright{float:none;
+	padding:0em}	
+	
+	p{
+		font:.9em Georgia;
+		line-height:1.3;	
+	}
+
+}
+	
