@@ -1,9 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+	  <title>Mindy Villaran</title>
+	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
   </head>
+  
+  <nav>
+	  <a href="index.html">MINDY VILLARAN</a>
+	  <a href="work.html">WORK</a>
+	  <a href="about.html">ABOUT</a>
+ </nav>	  
+ 
   <body>
+
+  	  <div id="container">
+        <ul class="slides">
+		  
+           <input type="radio" name="radio-btn" id="img-1" checked />
+              <li class="slide-container">
+  		          <div class="slide">
+  			           <img src="images/map.jpg"/>
+                    </div>
+  		          <div class="nav">
+  			           <label for="img-2" class="next">&#x203a;</label>
+  					   <label for="img-4" class="prev">&#x2039;</label>
+  		          </div>
+              </li>
+			
+           <input type="radio" name="radio-btn" id="img-2" />
+             <li class="slide-container">
+                    <div class="slide">
+                   <img src="images/cards.JPG"/>
+                    </div>
+  		         <div class="nav">
+  			           <label for="img-1" class="prev">&#x2039;</label>
+  			           <label for="img-3" class="next">&#x203a;</label>
+  		         </div>
+             </li>
+
+           <input type="radio" name="radio-btn" id="img-3" />
+              <li class="slide-container">
+               <div class="slide">
+                    <img src="images/book.JPG"/>
+               </div>
+  		         <div class="nav">
+  			     <label for="img-2" class="prev">&#x2039;</label>
+  			     <label for="img-4" class="next">&#x203a;</label>
+  		     </div>
+              </li>
+
+           <input type="radio" name="radio-btn" id="img-4" />
+             <li class="slide-container">
+               <div class="slide">
+                    <img src="images/monument.jpg" />
+               </div>
+  		         <div class="nav">
+  			     <label for="img-3" class="prev">&#x2039;</label>
+  			     <label for="img-1" class="next">&#x203a;</label>
+  		     </div>
+             </li>
+  	   </ul>
+      </div>
 
   </body>
 </html>
