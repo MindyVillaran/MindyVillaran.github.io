@@ -107,6 +107,10 @@ html[xmlns] .clearfix { display: block; }
     max-width: 100%;
 }
 
+img:hover {
+	{ opacity: 0.24; }
+}
+
 .nav label {
     height: 100%;
     display: none;

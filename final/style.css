@@ -50,11 +50,63 @@ table {
 /* Add Styles Here */
 
 
+body{
+	width:70%;
+	margin: 0 auto;
+}
+
+h1{
+font-family: 'Titillium Web', sans-serif;
+font-weight:600;
+line-height: 1em;
+letter-spacing:1px;
+color:#666;
+margin: 12px 0px 9px 0px;
+text-transform: uppercase} 
+
+p{
+font-family: 'Titillium Web', sans-serif;
+font-weight:300;
+line-height: 1.4em;
+letter-spacing:.8px;
+color:#666;} } 
+
+
+
+/*-----header and nav----*/
+
+#topnav-container {
+	height:10%;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	
+	border-style:solid;
+	border-bottom-color: gray;
+	border-bottom-width: 3px;
+}
+
+#top-nav{
+	float:right;
+
+}
+
+.onpage a:{
+	border-style: solid;
+	border-color: gray;
+	border-width: 2px;
+}
+#top-nav a{
+	text-decoration:none;
+}
+
+
+
+
+/*-----homepage slider----*/
+
 #container {
 	position:relative;
     top:30px;
-    width: 60%;
-    margin: 0 auto;
 }
 
 .slides {
@@ -64,7 +116,6 @@ table {
 }
 
 .slides input { display: none; }
-
 
 .slide {
     top: 0;
@@ -93,9 +144,8 @@ table {
 }
 
 .nav label:hover { opacity: 0.5; }
-.nav .next { right: -20%; }
-.nav .prev { left: -20%; }
-
+.nav .next { right: -6%; }
+.nav .prev { left: -6%; }
 
 
 input:checked + .slide-container  .slide {
@@ -106,19 +156,69 @@ input:checked + .slide-container  .slide {
 
 input:checked + .slide-container .nav label { display: block; }
 
-
-
-
-@media screen and (max-width:900px) { 
+@media screen and (max-width:960px) { 
 	.nav label {
-	    font-size: 5em;	
+	    font-size: 4em;	
 }
 }
 
 @media screen and (max-width:600px) { 
 	.nav label {
-	    font-size: 3em;	
+	    font-size: 2em;	
 }
 }
+
+
+
+/*-----work page thumbnails----*/
+
+
+
+.box {
+	width:29.3%;
+    float:left;
+    padding-bottom:23.1%;
+	margin:2%;
+}
+
+
+.tile {	
+	position:absolute;
+	overflow:hidden;}
+
+.color-box {
+	position:absolute;
+	background-color:white;
+	opacity:0;
+	width: 100%;
+	height:35%;
+	
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out; 
+}
+
+.title{
+	font-size:1em;
+	color:#666;
+	text-align:center;
+	width:100%;
+}
+
+.box:hover .color-box {
+	margin-bottom:0;
+	opacity:.8;}
+
+
+	
+
+
+
+
+
+
+
+
 
 
