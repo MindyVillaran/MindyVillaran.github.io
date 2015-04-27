@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Add Styles Here */
+/*-------- Add Styles Here------------ */
 
 
 body{
@@ -57,52 +57,106 @@ body{
 
 h1{
 font-family: 'Titillium Web', sans-serif;
-font-weight:600;
-line-height: 1em;
+font-size:1.8em;
+font-weight:400;
+letter-spacing:1.3px;
+color:#666;
+text-transform: uppercase} /*---logo---*/
+
+h2{
+font-family: 'Titillium Web', sans-serif;
+font-size:1.4em;
+font-weight:300;
+letter-spacing:1.1px;
+color:#666;
+text-transform: uppercase;
+} /*---top nav---*/
+
+h3{
+font-family: 'Titillium Web', sans-serif;
+font-size:1.5em;
+font-weight:400;
+line-height: 1.25em;
 letter-spacing:1px;
 color:#666;
-margin: 12px 0px 9px 0px;
-text-transform: uppercase} 
+margin-bottom: 1.1em
+} /*---titles---*/
+
+h4{
+font-family: 'Titillium Web', sans-serif;
+font-size:1em;
+font-weight:300;
+letter-spacing:.8px;
+color:gray;
+} /*---next-prev---*/
+
 
 p{
 font-family: 'Titillium Web', sans-serif;
 font-weight:300;
-line-height: 1.4em;
+font-size: 1em;
+line-height: 1.5em;
 letter-spacing:.8px;
-color:#666;} } 
+color:#666;
+} 
+
+em{
+font-family: 'Titillium Web', sans-serif;
+font-weight:300;
+font-style:italic;
+font-size: 1em;
+line-height: 1.5em;
+letter-spacing:.8px;
+color:#666;
+} 
 
 
 
 /*-----header and nav----*/
 
 #topnav-container {
-	height:10%;
+	height:5%;
 	padding-top: 5%;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
 	
 	border-style:solid;
-	border-bottom-color: gray;
-	border-bottom-width: 3px;
+	border-bottom-color: #DADADA;
+	border-bottom-width: 2px;
+	background-color:white;
+	
 }
 
 #top-nav{
 	float:right;
-
 }
 
-.onpage a:{
-	border-style: solid;
-	border-color: gray;
-	border-width: 2px;
-}
-#top-nav a{
+
+a{
 	text-decoration:none;
 }
 
+#secondary-nav{
+	width: 100%;
+	margin: 3% 0% 2.5% 0%;
+	position:relative;
+}
 
+#prev-project{
+	position:absolute;
+	left:0px;
+}
+
+#next-project{
+	position:absolute;
+	right:0px;}
+
+article{
+		width:100%;
+	}
 
 
 /*-----homepage slider----*/
+
 
 #container {
 	position:relative;
@@ -173,7 +227,6 @@ input:checked + .slide-container .nav label { display: block; }
 /*-----work page thumbnails----*/
 
 
-
 .box {
 	width:29.3%;
     float:left;
@@ -211,13 +264,39 @@ input:checked + .slide-container .nav label { display: block; }
 	opacity:.8;}
 
 
-	
+
+/*-----about page layout-----*/
+
+#me{
+	width:30%;
+	float:left;
+	padding-right: 2%;
+}
+
+.description{
+	margin-top: 5%;
+	float:left;
+	width:30%;}
+
+.icon{
+	width: 20%;
+	margin-top: 10%;
+}
 
 
+/*-----detail page layout-----*/
 
+.project-images{
+	margin-top: 5%;
+	width:67%;
+	float:left;
+	padding-right: 2%;
+}
 
-
-
+.project-detail{
+	width:100%;
+	margin-bottom:2%;
+}
 
 
 
