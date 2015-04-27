@@ -153,12 +153,12 @@ footer{
 	padding-right: 2.189em;
 }
 
-a{
+span{
 	color:#B20000;
 	text-decoration:none;
 }
 	
-a:hover{
+span:hover{
 	color:gray;
 	text-decoration:none;	
 }	
