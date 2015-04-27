@@ -3,16 +3,16 @@
   <head>
 	  <title>Mindy Villaran</title>
 	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
-	  <head>
 	  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300, 400, 600,700' rel='stylesheet' type='text/css'>
-	  </head>
-	  
+	     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		 <script src='js/jquery.cycle2.min.js'></script>
+		 
+	    
   </head>
   
  <body>
 	 
 	 
-  
 <header id="topnav-container">
   <a href="index.html"><h1>MINDY VILLARAN</h1></a>
   <nav id='top-nav'>
@@ -21,54 +21,20 @@
   </nav>
 </header>	
 
-  	  <div id="container">
-        <ul class="slides">
-		  
-           <input type="radio" name="radio-btn" id="img-1" checked />
-              <li class="slide-container">
-  		          <div class="slide">
-  			           <img src="images/slider/3.jpg" alt="wayfinding project">
-                    </div>
-  		          <div class="nav">
-  			           <label for="img-2" class="next">&#x203a;</label>
-  					   <label for="img-4" class="prev">&#x2039;</label>
-  		          </div>
-              </li>
+  	  <div id="fade">
+		<img src="images/slider/1.jpg" alt="flw">  
+		<img src="images/slider/2.jpg" alt="book design">  
+  		<img src="images/slider/3.jpg" alt="wayfinding project">
+        <img src="images/slider/4.jpg" alt="lemon cards">        
+      </div> 
+	  
+     <script>
+ 	  $(document).ready(function() {
+ 	        $('#fade').cycle();
+ 	        });    
+     </script>
 			
-           <input type="radio" name="radio-btn" id="img-2" />
-             <li class="slide-container">
-                    <div class="slide">
-                   <img src="images/slider/4.jpg" alt="lemon cards">
-                    </div>
-  		         <div class="nav">
-  			           <label for="img-1" class="prev">&#x2039;</label>
-  			           <label for="img-3" class="next">&#x203a;</label>
-  		         </div>
-             </li>
-
-           <input type="radio" name="radio-btn" id="img-3" />
-              <li class="slide-container">
-               <div class="slide">
-                    <img src="images/slider/2.jpg" alt="book design">
-               </div>
-  		         <div class="nav">
-  			     <label for="img-2" class="prev">&#x2039;</label>
-  			     <label for="img-4" class="next">&#x203a;</label>
-  		     </div>
-              </li>
-
-           <input type="radio" name="radio-btn" id="img-4" />
-             <li class="slide-container">
-               <div class="slide">
-                    <img src="images/slider/1.jpg" alt="typographic momument">
-               </div>
-  		         <div class="nav">
-  			     <label for="img-3" class="prev">&#x2039;</label>
-  			     <label for="img-1" class="next">&#x203a;</label>
-  		     </div>
-             </li>
-  	   </ul>
-      </div>
+			
 
   </body>
 </html>
