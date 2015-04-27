@@ -53,16 +53,22 @@ table {
 
 /* -----------------END RESET---------------- */
 
- 
- 
 
 body {
   margin:0 auto;
   width:80%;
 }
 
-
-
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('leaguegothic-regular-webfont.woff') format('woff'),
+         url('leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
 
 header {
 	text-align: center;
@@ -79,7 +85,6 @@ header {
 	 padding: .15em .4em .15em .4em;
 	 display: inline-block; 
  }	
- 
 
 #mobile-nav {
 	 display:none;
@@ -93,19 +98,32 @@ header {
  	 text-transform:uppercase;
   }	
 
-header img{
-	padding-top: 1.25em;
-	padding-bottom:2.19em;
-	display: inline-block;
-}
-  
 
-	
-	
-	
-	
-	
-h1{
+#logo {
+	width:40%;
+	margin: 0 auto;
+	height: auto;
+	position:relative;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.logo {
+	font-size:7em;
+	color:black;
+	font-family:league_gothicregular;
+	text-transform: uppercase;}
+
+#versus{
+	font:bold 4em Georgia;;
+	font-style: italic;
+	color:gray;
+	padding:3px;
+	border-top: solid 4px gray;
+	border-bottom: solid 4px gray;
+}	
+ 	
+h3{
 	font:bold 1.56em Georgia;
 	padding-bottom:.8em;	
 	}
@@ -153,12 +171,12 @@ footer{
 	padding-right: 2.189em;
 }
 
-span{
+.pseudolink{
 	color:#B20000;
 	text-decoration:none;
 }
 	
-span:hover{
+.pseudolink:hover{
 	color:gray;
 	text-decoration:none;	
 }	
