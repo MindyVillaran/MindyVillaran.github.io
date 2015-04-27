@@ -185,15 +185,17 @@ article{
 }
 
 .title{
-	font-size:1em;
-	color:#666;
-	text-align:center;
+	font-size:1.2em;
+	color:black;
 	width:100%;
+	position:absolute;
+	top:35%;
+	text-align:center;
 }
 
 .box:hover .color-box {
 	margin-bottom:0;
-	opacity:.8;}
+	opacity:.9;}
 
 
 
