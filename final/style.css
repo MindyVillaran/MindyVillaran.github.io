@@ -260,7 +260,6 @@ a{text-decoration:none;}
 	width: 20%;
 }
 	
-	
 #description-wrapper {
 	margin-top: 5%;
 	position:relative;
@@ -286,6 +285,88 @@ a{text-decoration:none;}
 .project-detail{
 	width:100%;
 	margin-bottom:2%;
+}
+
+
+
+/*------- media queries ------*/
+
+@media screen and (max-width:950px) { 
+	.box {
+		width:46%;
+	    float:left;
+	    padding-bottom:40%;
+		margin:2%;}
+		
+		.title{
+			font-size:1em;
+		}
+		
+		h1{
+		font-size:1.4em;
+		} /*---logo---*/
+
+		h2{
+		font-size:1.1em;
+		} /*---top nav---*/
+		
+		.description{
+			position: absolute;
+			width: 100%;
+		}
+	
+	
+		#description-wrapper {
+			width:50%;
+			float:left;}
+			
+	   #me{
+				width:40%;
+				float:left;
+				margin-bottom:15%;}	
+
+			
+			.project-images{
+				margin-top: 8%;
+				width:100%;
+				float:left;
+				padding-right: 2%;}
+}
+
+
+@media screen and (max-width:600px) { 
+	.box {
+		width:90%;
+	    padding-bottom:80%;
+		margin:2%;}
+		
+		.title{
+			font-size:1.2em;
+		}	
+		
+		h1{
+		font-size:1.2em;
+		} /*---logo---*/
+
+		h2{
+		font-size:1em;
+		} /*---top nav---*/
+		
+		
+		#description-wrapper {
+			width:90%;
+			float:none;}
+			
+	   #me{
+				width:80%;
+				float:none;
+				margin-bottom:15%;}
+				
+		.project-images{
+			margin-top: 13%;
+			width:100%;
+			float:none;}					
+		
 }
 
 
