@@ -60,6 +60,15 @@ body{
 	margin: 0 auto;
 }
 
+a{text-decoration:none;}
+
+#secondary-nav a{
+	color: gray;}
+	
+#secondary-nav a:hover{
+	color:#4DB8B8}	
+
+
 h1{
 font-family: 'Titillium Web', sans-serif;
 font-size:1.8em;
@@ -130,7 +139,7 @@ color:#666;
 	background-color:white;
 	
 	position:fixed;
-	z-index: 10000;	/*---ridiculously high z-index for the win?---*/
+	z-index: 10000;	/*ridiculously high z-index for the win?*/
 }
 
 #topnav-container-home {
@@ -164,17 +173,13 @@ color:#666;
 	float:left;
     margin-top: 25px;}
 	
-	
-	
-
-a{text-decoration:none;}
-
 #secondary-nav{
 	width: 100%;
 	margin: 3% 0% 2.5% 0%;
 	position:relative;
 }
 
+		
 #prev-project{
 	position:absolute;
 	left:0px;
