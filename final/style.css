@@ -272,6 +272,18 @@ color:#666;
 	width:30%;
 }
 
+#description-wrapper-about {
+	margin-top: 5%;
+	position:relative;
+	float:left;
+	width:30%;
+}
+
+#description-about {
+	position: fixed;
+	width: 20%;
+}
+
 .icon{
 	width: 20%;
 	margin-top: 10%;
@@ -335,8 +347,12 @@ color:#666;
 		#description-wrapper {
 			width:100%;}
 			
+		#description-wrapper-about {
+			width:45%;
+			float:left;}	
+				
 	   #me{
-				width:40%;
+				width:45%;
 				float:left;
 				margin-bottom:15%;}	
 
@@ -381,6 +397,10 @@ color:#666;
 		#description-wrapper {
 			width:90%;
 			float:none;}
+			
+		#description-wrapper-about {
+			width:90%;
+			float:none;}	
 			
 	   #me{
 			width:80%;
