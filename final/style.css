@@ -292,6 +292,18 @@ a{text-decoration:none;}
 /*------- media queries ------*/
 
 @media screen and (max-width:950px) { 
+	#page-wrapper{
+		width: 80%;	
+	}
+	
+	#topnav-container-home {
+		width: 80%;
+	}
+
+	#topnav-container {
+		width: 80%;
+	}
+	
 	.box {
 		width:46%;
 	    float:left;
@@ -335,6 +347,19 @@ a{text-decoration:none;}
 
 
 @media screen and (max-width:600px) { 
+	
+	#page-wrapper{
+		width: 90%;	
+	}
+	
+	#topnav-container-home {
+		width: 90%;
+	}
+
+	#topnav-container {
+		width: 90%;
+	}
+	
 	.box {
 		width:90%;
 	    padding-bottom:80%;
