@@ -130,6 +130,7 @@ color:#666;
 	background-color:white;
 	
 	position:fixed;
+	z-index: 10;	
 }
 
 #topnav-container-home {
@@ -190,7 +191,7 @@ a{text-decoration:none;}
 
 #fade img { width: 100%;
 	position: relative;
-	z-index: -1;}
+	z-index: -5;}
 	
 .slide-image {
 	position: absolute;
