@@ -130,7 +130,7 @@ color:#666;
 	background-color:white;
 	
 	position:fixed;
-	z-index: 10000;	
+	z-index: 10000;	/*---ridiculously high z-index for the win?---*/
 }
 
 #topnav-container-home {
