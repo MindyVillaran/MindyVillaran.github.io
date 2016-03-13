@@ -118,23 +118,23 @@ header{
 
   @font-face {
       font-family: Klinic-Light;
-      src: url(Klinic-Slab/KlinicSlabLight.otf);} 
+      src: url(Klinic-Slab-Personal-License/KlinicSlabLight.otf);} 
 
   @font-face {
       font-family: Klinic-Light-It;
-      src: url(Klinic-Slab/KlinicSlabLightIt.otf);}  
+      src: url(Klinic-Slab-Personal-License/KlinicSlabLightIt.otf);}  
 
 @font-face {
       font-family: Klinic-Book;
-      src: url(Klinic-Slab/KlinicSlabBook.otf);} 
+      src: url(Klinic-Slab-Personal-License/KlinicSlabBook.otf);} 
 
   @font-face {
       font-family: Klinic-Med;
-      src: url(Klinic-Slab/KlinicSlabMedium.otf);} 
+      src: url(Klinic-Slab-Personal-License/KlinicSlabMedium.otf);} 
 
   @font-face {
       font-family: Klinic-Med-It;
-      src: url(Klinic-Slab/KlinicSlabMediumIt.otf);} 
+      src: url(Klinic-Slab-Personal-License/KlinicSlabMediumIt.otf);} 
 
  /*-----------------gotham---------------*/
 
