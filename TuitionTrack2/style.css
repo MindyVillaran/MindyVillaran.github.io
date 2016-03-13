@@ -28,7 +28,7 @@ a {text-decoration: none;
 #introtag {margin-top:20px;}	
 	
 .reg {
-	font-family: Gotham Light;
+	font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300;
 	font-size: 16px;
@@ -37,12 +37,12 @@ font-weight: 300;
 	padding: 20px;}	
 	
 .current {color: #3f90a5;
-	font-family: Gotham Book;
+	font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;}
 
 .reg:hover {color:#7cc0b9;
-	font-family: Gotham Book;
+	font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;}
 
@@ -108,7 +108,7 @@ header{
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 
 .menu li {display: block;   padding:10px 0 10px 0; border-bottom:#e6e6e6 1px solid; }
-.menu h3 {font-family: Gotham Light;
+.menu h3 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300; padding-left: 20px; font-size:16px; color: gray;}
 
@@ -147,31 +147,31 @@ font-weight: 300; padding-left: 20px; font-size:16px; color: gray;}
  /*-----------------gotham---------------*/
 
  /* @font-face {
-      font-family: Gotham Light;
+      font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300;
       src: url(Gotham/GothamHTF-XLight.ttf);} 
 	  
   @font-face {
-      font-family: Gotham Light;
+      font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300;
       src: url(Gotham/GothamHTF-Light.ttf);} 
 	
   @font-face {
-      font-family: Gotham Book;
+      font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;
       src: url(Gotham/GothamHTF-Book.ttf);} 
 
   @font-face {
-      font-family: Gotham Medium;
+      font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 500;
       src: url(Gotham/GothamHTF-Medium.ttf);} 
 
   @font-face {
-      font-family: Gotham Bold;
+      font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 700;
       src: url(Gotham/GothamHTF-Bold.ttf);}  */
@@ -182,7 +182,7 @@ font-weight: 700;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;}
 
-h1 {font-family: Gotham Light;
+h1 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300; 
 	  color:white;
@@ -190,7 +190,7 @@ font-weight: 300;
   	font-size:55px; 	
 }
 
-h4 {font-family: Gotham Light;
+h4 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300; 
 	  color:white;
@@ -200,7 +200,7 @@ font-weight: 300;
 }		
 
 	
-  h2 {font-family: Gotham Light;
+  h2 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300; 
   	font-size:45px;
@@ -213,7 +213,7 @@ h6 {font-family: klinic-med-it;
 	text-align: center;}
 	
 
-h5 {font-family: Gotham Light;
+h5 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 300;
 font-size:20px;
@@ -511,7 +511,7 @@ color: gray}
 	text-align: center;
 	font-size: 15px;
 	line-height:1.2em;
-	font-family: Gotham Book;
+	font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;}
 	
@@ -522,7 +522,7 @@ font-weight: 400;}
 	text-align: center;
 	font-size: 15px;
 	line-height:1.2em;
-	font-family: Gotham Book;
+	font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;} 
 
@@ -647,7 +647,7 @@ padding-bottom: 20px;}
 	padding: 20px;
 	max-height: 150px;}	
 
-.textcapt, .textcapt3 {font-family: Gotham Book;
+.textcapt, .textcapt3 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;
 	font-size: .8em;
@@ -658,7 +658,7 @@ font-weight: 400;
 .textcapt3 {text-align: center;}
 	
 
-.textcapt2 {font-family: Gotham Book;
+.textcapt2 {font-family: "Gotham A", "Gotham B";
 font-style: normal;
 font-weight: 400;
 	font-size: .65em;
